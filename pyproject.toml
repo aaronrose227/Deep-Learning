@@ -1,0 +1,15 @@
+[project]
+name = "c19-problem-sheets"
+version = "0.1.0"
+description = "C19 problem sheet notebooks"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "tqdm",
+]
+
+[tool.uv]
+package = false
